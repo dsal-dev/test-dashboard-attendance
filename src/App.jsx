@@ -67,8 +67,8 @@ function App() {
         <div className="flex-1">
           <Navbar />
           <main className="bg-[#f0f1f2] min-h-dvh p-6">
-            <div className="grid grid-cols-7 gap-x-4">
-              <div className="col-span-2 grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 lg:grid-cols-7 gap-4">
+              <div className="col-span-1 lg:col-span-2 grid grid-cols-2 gap-4">
                 <Card>
                   <Title title="On Duty" />
                   <PieChart data={pieOptions1} />
@@ -107,7 +107,7 @@ function App() {
                   />
                 </Card>
               </div>
-              <div className="col-span-5 flex flex-col gap-y-4">
+              <div className="col-span-1 lg:col-span-5 flex flex-col gap-y-4">
                 <Card>
                   <TitleColumnChart title="Attendance Daily" />
                   <div className="mt-4">

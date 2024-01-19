@@ -1,3 +1,5 @@
+import Switch from "../atoms/switch";
+
 const Navbar = () => {
   return (
     <nav className="h-[80px] flex justify-between items-center px-6 shadow-lg bg-[#f8f9fa] sticky top-0 right-0 z-[99999]">
@@ -6,6 +8,7 @@ const Navbar = () => {
         <button className="px-4 py-2 bg-white rounded text-center border">
           --All Organization--
         </button>
+        <Switch />
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="icon icon-tabler icon-tabler-logout"
